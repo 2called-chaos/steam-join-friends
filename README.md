@@ -25,8 +25,9 @@ Note: a script may [auto-elevate](https://www.autohotkey.com/docs/commands/Run.h
 ## Important!
 
 * Steam must be running! This script connects to a websocket server Steam creates for use with the web chat.
-* If your script invocation is elevated (aka run as admin) Steam **MUST** also be running elevated
-* If your script invocation is NOT elevated Steam **MUST ALSO NOT** be elevated
+* Process elevation MUST match or the websocket denies the connection! That means:
+  * If your script invocation is elevated (aka run as admin, admin powershell) Steam **MUST** also be running elevated
+  * If your script invocation is NOT elevated Steam **MUST ALSO NOT** be elevated
 
 Since I need my AHK to run elevated I just start everything elevated. This means I cannot double click the batch anymore but that is fine by me. To do the same right click the exe files (not shortcuts) of every process involved, for me the following 3, and check the "Run this program as an administrator" box under Properties > Compatibility.
   * `C:\Program Files\AutoHotkey\AutoHotkeyU64.exe`
