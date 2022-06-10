@@ -1,0 +1,8 @@
+{
+  "name": "steam-join-friends",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "ws": "^8.7.0"
+  }
+}
