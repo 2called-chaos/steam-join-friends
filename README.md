@@ -6,7 +6,8 @@ Join friends programmatically (AHK, TouchPortal, etc)
 1. Have [node](https://nodejs.org/en/download/) installed
 2. [Download a zip copy](https://github.com/2called-chaos/steam-join-friends/archive/refs/heads/master.zip) of this project and unzip it.
 3. Copy the `config.template.js` as `config.js` and adjust the 2-3 values
-4. Read important notes further down below
+4. `cd` into folder and run `npm install`
+5. Read important notes further down below
 
 ### AHK (hotstring in this case)
 
